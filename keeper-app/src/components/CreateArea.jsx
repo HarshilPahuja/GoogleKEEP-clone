@@ -1,4 +1,7 @@
 import { useState } from "react";
+import AddIcon from '@mui/icons-material/Add';
+import { Fab } from "@mui/material";
+
 function CreateArea(props) {
 
     const [titlecontent, settitlecontent]=useState({
@@ -33,11 +36,11 @@ function CreateArea(props) {
       <form>
         <input onChange={changetitlecontent} name="title" placeholder="Title" value={titlecontent.title} />
         <textarea onChange={changetitlecontent} name="content" placeholder="Take a note..." rows="3" value={titlecontent.content} />
-        <button onClick={(event)=>{
+          <Fab onClick={(event)=>{
             event.preventDefault();
             props.additems(titlecontent);
             settitlecontent({ title: "", content: "" }); 
-        }} >Add</button>
+        }} ><AddIcon/></Fab>
       </form>
     </div>
   );
