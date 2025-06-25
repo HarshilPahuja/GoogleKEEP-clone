@@ -1,4 +1,4 @@
 # GoogleKEEP-clone
 A REACT PROJECT- clone of googlekeep
 
-![image](https://github.com/user-attachments/assets/8467aba6-da5e-4bea-af38-afa9a21be37c)
+![image](https://github.com/user-attachments/assets/4ac7ee37-ca37-426b-b76f-df25c23fa42a)
